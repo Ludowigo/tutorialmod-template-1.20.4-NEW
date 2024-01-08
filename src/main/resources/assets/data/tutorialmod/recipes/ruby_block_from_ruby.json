@@ -1,12 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "ingredients": [
-    {
-      "item": "tutorialmod:ruby_block"
-    },
-    {
-
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:ruby"
     }
-  ]
+  },
+  "result": {
+    "item": "tutorialmod:ruby_block"
+  }
 }
