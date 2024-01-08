@@ -2,6 +2,7 @@ package net.ludwig.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.ludwig.tutorialmod.block.ModBlocks;
 import net.ludwig.tutorialmod.item.ModItemGroups;
 import net.ludwig.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
@@ -14,7 +15,9 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("Hello Fabric world!");
 	}
