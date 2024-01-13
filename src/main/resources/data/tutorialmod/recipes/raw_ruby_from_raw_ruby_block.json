@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "minecraft:cobblestone"
+      "item": "tutorialmod:raw_ruby_block"
     }
   ],
   "result": {
-    "item": "minecraft:stone",
+    "item": "tutorialmod:raw_ruby",
     "count": 9
   }
 }
